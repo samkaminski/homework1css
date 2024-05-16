@@ -1,0 +1,29 @@
+h1{
+    color: brown;
+    text-align: center;
+}
+
+p{
+    background-color: beige;
+}
+
+body{
+    background-color: aqua;
+}
+
+nav{
+    background-color: #f7f192;
+    display: flex;
+    justify-content: center; /* Center the content of the nav */
+}
+
+li {
+    display: inline;
+    width: auto;
+}
+
+nav ul {
+    display: flex;
+    width: 100%; /* Make ul take the full width */
+    justify-content: space-around; /* Distribute li elements evenly */
+}

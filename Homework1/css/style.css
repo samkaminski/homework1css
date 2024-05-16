@@ -1,0 +1,44 @@
+h1{
+    color: blue;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header{
+    background-color: #84e89f;
+}
+
+body{
+    font-family: Stencil Std, fantasy;
+    font-size: large;
+}
+
+nav{
+    background-color: #f7f192;
+    display: flex;
+    justify-content: center; /* Center the content of the nav */
+}
+
+main{
+    background-color: #af80d9;
+    font-size: x-large;
+}
+
+footer{
+    background-color: #e8a2af;
+}
+
+li {
+    display: inline;
+    width: auto;
+}
+
+nav ul {
+    display: flex;
+    width: 100%; /* Make ul take the full width */
+    justify-content: space-around; /* Distribute li elements evenly */
+}
+
+p{
+    line-height: 32px;
+}
